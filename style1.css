@@ -1,0 +1,69 @@
+/* Styling page for index.html */
+
+.container {  
+    display: grid;
+    grid-template-columns: 1.6fr 0.4fr 1fr;
+    grid-template-rows: 0.2fr 1.8fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "HEADER-1 HEADER-1 HEADER-1"
+    "MAIN-1 MAIN-2 MAIN-2"
+    "MAIN-1 MAIN-2 MAIN-2";
+}
+
+.HEADER-1 { 
+    grid-area: HEADER-1; 
+    font-family: andale mono, monospace;
+    text-align: center;
+}
+
+.MAIN-1 { 
+    grid-area: MAIN-1;
+    text-align: center;
+    font-family: andale mono, monospace;
+    margin-right: 20px;
+}
+
+h2.MAIN-1 {
+    font-size: 30px;
+}
+
+h4.MAIN-1 {
+    text-align: right;
+}
+
+.MAIN-2 { 
+    grid-area: MAIN-2; 
+    background-color: black;
+    text-align: center;
+    height: 95vh
+}
+
+/* navigation link styling */
+nav {
+    float: right;
+    display: inline;
+    padding-right: 20px;
+    margin-bottom: 50px;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+/* logo settings */
+.logo {
+    max-width: 500px;
+    height: auto;
+}
+
+#logo-section {
+    justify-content: center;
+}

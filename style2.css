@@ -73,3 +73,30 @@ a {
     max-height: 300px;
     padding: 20px;
 }
+
+@media (max-width: 1024px) {
+  /* … */
+    .about-img {
+        max-width: 300px;
+        margin-top: 150px; 
+        margin-bottom: 100px;
+    }
+
+    .port {
+        max-width: 300px;
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+
+}
+
+@media (max-width: 768px) {
+  /* … */
+    .about-img {
+        max-width: 200px;
+    }
+
+    .port {
+        max-width: 200px;
+    }
+}

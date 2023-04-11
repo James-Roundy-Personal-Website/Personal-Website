@@ -54,7 +54,13 @@ a {
     font-size: 20px;
 }
 
+a:hover {
+    background-color: black; 
+    color: white;
+}
+
 /* logo settings */
+
 .logo {
     max-width: 500px;
     height: auto;
@@ -74,6 +80,17 @@ a {
     padding: 20px;
 }
 
+/* footer settings */
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center; 
+    justify-content: center; 
+}
+
+/* media queries for resizing */ 
+
 @media (max-width: 1024px) {
   /* … */
     .about-img {
@@ -91,7 +108,7 @@ a {
 }
 
 @media (max-width: 768px) {
-  /* … */
+    
     .about-img {
         max-width: 200px;
     }

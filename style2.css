@@ -83,10 +83,9 @@ a:hover {
 /* footer settings */
 
 footer {
-    background-color: black;
-    color: white;
     text-align: center; 
     justify-content: center; 
+    font-family: andale mono, monospace;
 }
 
 /* media queries for resizing */ 

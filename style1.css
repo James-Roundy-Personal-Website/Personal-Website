@@ -77,10 +77,33 @@ a:hover {
 /* footer settings */
 
 footer {
-    background-color: black;
-    color: white;
     text-align: center; 
     justify-content: center; 
+    font-family: andale mono, monospace;
+}
+
+
+/* form styling */
+
+form {
+    padding: 50px;
+    display: grid;
+}
+
+#name {
+    margin: 20px;
+}
+
+#email {
+    margin: 20px;
+}
+
+#tel {
+    margin: 20px;
+}
+
+#submit {
+    margin: 20px;
 }
 
 /* media queries for resizing */
@@ -91,6 +114,7 @@ footer {
         max-width: 300px;
     }
 
+
 }
 
 @media (max-width: 768px) {
@@ -100,3 +124,21 @@ footer {
     }
 
 }
+
+@media (max-width: 500px) {
+    
+    .logo {
+        max-width: 120px;
+    }
+
+}
+
+@media (max-width: 440px) {
+    
+    .logo {
+        max-width: 80px;
+    }
+
+}
+
+

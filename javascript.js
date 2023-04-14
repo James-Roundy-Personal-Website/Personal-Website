@@ -22,7 +22,8 @@ const form = document.querySelector("#form")
      fetch(scriptURL, { method: 'POST', body: requestBody})
        .then(response => {
           alert('Success!', response)
-          submitButton.disabled = false
+          submitButton.disabled = false;
+          location.href = "https://swoops503.github.io/pwrepository2/";
          })
        .catch(error => {
        alert('Error!', error.message)
